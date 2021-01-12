@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: #0C0B0B;
+    color: #B7B7B7;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+.profile{
+    max-width: 50%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 4px 0 8px 1px  #5a5353;
+    border:1px solid #363434;
+
+}
+
+header div p{
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;  
+    margin: 0 150px 0 20px;
+}
+header div span{
+    font-size: 16px;
+    margin-left: 22px;
+}
+header a {
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #B7B7B7;
+    background: #044A7D;
+    border-radius: 4px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 300ms;
+
+
+}
+header a i{
+    font-size: 26px;
+    font-weight: normal;
+}
+header a:hover{
+    background: #046313;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    margin-top: 30%;
+    background: #fff;
+    height: 120px;
+    width: 220px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.card p{
+    color: #B7B7B7;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.card span{
+    font-size: 46px;
+    margin-left: 10px;
+}
+
+.social{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social a{
+    font-size: 58px;
+    color: #5a5353;
+    margin-right: 50px;
+    transition: all 300ms;
+
+}
+.social a:hover{
+    color: #B7B7B7;
+}
